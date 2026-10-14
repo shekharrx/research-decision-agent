@@ -1,0 +1,26 @@
+# --- Secrets: never commit API keys ---
+gemini_key.txt
+*.key
+.env
+.env.*
+
+# --- Python virtual environment ---
+.venv/
+venv/
+env/
+
+# --- Generated reports (personal research) ---
+decisions/
+
+# --- Python cache ---
+__pycache__/
+*.py[cod]
+
+# --- Editor / OS files ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Screenshots / scratch images ---
+Screenshot*.png

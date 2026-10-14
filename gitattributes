@@ -1,0 +1,5 @@
+# Keep Windows line endings for batch files so they run correctly after cloning
+*.bat text eol=crlf
+*.py  text eol=lf
+*.md  text eol=lf
+*.txt text eol=lf
